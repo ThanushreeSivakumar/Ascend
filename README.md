@@ -50,8 +50,6 @@ Igris continuously aggregates:
 
 ## 🛠️ Tech Stack
 
-> _Add your actual stack here — sample structure below._
-
 | Layer | Technology |
 |---|---|
 | Frontend | — |
