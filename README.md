@@ -8,8 +8,6 @@
 [![Status](https://img.shields.io/badge/status-in%20development-yellow.svg)](#)
 [![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-red.svg)](#)
 
-> ⚠️ Note: the LICENSE badge above assumes MIT. Double-check this against your actual `LICENSE` file before merging — GitHub currently shows this repo as GPL-3.0, which doesn't match the MIT text below. Pick one and make both consistent.
-
 ---
 
 ## 🧭 Overview
@@ -46,7 +44,7 @@ Igris aggregates trending **LinkedIn discussions**, relevant **news articles**, 
 | Database   | PostgreSQL |
 | Deployment | Vercel (frontend) + Render/Railway (backend + DB) |
 
-> These are proposed defaults for the MVP, not locked-in decisions — see [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the reasoning and swap anything that doesn't fit your team's preference.
+> These are proposed defaults for the MVP, not locked-in decisions — see [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the reasoning.
 
 ---
 
@@ -90,9 +88,6 @@ npm run dev
 ```
 
 The app will be available at `http://localhost:3000`, talking to the API at `http://localhost:8000`.
-
-> 📝 This assumes a `backend/` + `frontend/` monorepo layout, which doesn't exist yet in this repo. Scaffold those two folders first — see [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the intended structure.
-
 ---
 
 ## 🗺️ Roadmap
